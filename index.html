@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <script>
+      const plus = function (num1, num2) {
+        return num1 + num2;
+      };
+      console.log(plus(2, 3));
+
+      //함수대신 화살표문
+      /*
+      const minus = (num1, num2) => {
+        return num1 - num2;
+      };
+      */
+      //화살표함수 안쪽에서 중괄호, 리턴문은 생략가능
+      const minus = (num1, num2) => num1 - num2;
+      console.log(minus(3, 2));
+    </script>
+  </body>
+</html>
